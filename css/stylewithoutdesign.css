@@ -1,0 +1,98 @@
+/*Author:Biji Raju*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 55%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.top-content img {
+    width: 350px;
+}
+p,
+a {
+    font-size: 14px;
+}
+.top-content-left {
+    width: 45%;
+    padding-top: 60px;
+    align-items: center;
+}
+/* CHAIRS SPECIAL */
+.chair-special {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.chair-special-left {
+    width: 30%;
+}
+.chair-special-middle {
+    width: 30%;
+}
+.chair-special-right {
+    width: 30%;
+}
+/* WITHOUT CHAIRS */
+.without-chairs img {
+    width: 220px;
+    padding-bottom: 40px;
+}
+.without-chairs {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+.without-chairs p {
+    font-style: italic;
+    padding-bottom: 30px;
+}
+/* BEST SELLING */
+.best-selling {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.best-selling img {
+    width: 220px;
+}
+.best-selling-left {
+    width: 30%;
+}
+.best-selling-middle {
+    width: 30%;
+}
+.best-selling-right {
+    width: 30%;
+}
+.best-selling h5,
+h6 {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.best-selling p {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.best-selling a {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.price {
+    display: flex;
+    justify-content: flex-start;
+}
